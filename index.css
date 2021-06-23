@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculator {
+    border-bottom: 2px, solid, black;
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 250px;
+    
+}
+
+.display {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid black;
+}
